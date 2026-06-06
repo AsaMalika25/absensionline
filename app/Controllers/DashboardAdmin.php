@@ -58,7 +58,7 @@ class DashboardAdmin extends BaseController
             'pager' => $model->pager
         ];
 
-        return view('DashboardAdmin/HistorySiswaAd', $data);
+        return view('dashboardAdmin/HistorySiswaAd', $data);
     }
 
     public function ChartAdmin()
@@ -370,10 +370,6 @@ class DashboardAdmin extends BaseController
             'dashboardAdmin/Spreadsheet',
             $data
         );
-    }
-    public function NoteAd()
-    {
-        return view('dashboardAdmin/NoteAd');
     }
 
     public function Settings()

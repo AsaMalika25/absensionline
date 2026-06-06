@@ -55,7 +55,6 @@ $routes->get('DashboardAdmin/ChartAdmin', 'DashboardAdmin::ChartAdmin');
 $routes->get('DashboardAdmin/Settings', 'DashboardAdmin::Settings');
 $routes->get('DashboardAdmin/exportExcel', 'DashboardAdmin::exportExcel');
 $routes->get('DashboardAdmin/Spreadsheet', 'DashboardAdmin::Spreadsheet');
-$routes->get('DashboardAdmin/NoteAd', 'DashboardAdmin::NoteAd');
 $routes->post('DashboardAdmin/updateRole', 'DashboardAdmin::updateRole');
 $routes->post('DashboardAdmin/updatePermission', 'DashboardAdmin::updatePermission');
 

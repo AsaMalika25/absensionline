@@ -1140,7 +1140,7 @@ foreach ($words as $word) {
                 <a href="<?= site_url('DashboardAdmin/HomeAdmin') ?>" class="sidebar-item">
                     <i class="ti ti-home"></i> Home
                 </a>
-                <a href="#" class="sidebar-item">
+                <a href="<?= site_url('DashboardAdmin/HistorySiswaAd') ?>" class="sidebar-item">
                     <i class="ti ti-school"></i> Student
                 </a>
                 <a href="<?= site_url('DashboardAdmin/ChartAdmin') ?>" class="sidebar-item">
@@ -1168,8 +1168,8 @@ foreach ($words as $word) {
         <main class="main">
             <div class="page-header">
                 <div>
-                    <div class="breadcrumb"><span>Home Page</span></div>
-                    <h1 class="page-title">History</h1>
+                    <div class="breadcrumb"><span>Personal</span></div>
+                    <h1 class="page-title">Setting</h1>
 
                 </div>
 
