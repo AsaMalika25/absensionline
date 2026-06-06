@@ -915,7 +915,7 @@ foreach ($words as $word) {
         <main class="main">
             <div class="page-header">
                 <div>
-                    <div class="breadcrumb"><span>Personal</span></div>
+                    <div class="breadcrumb"><span>Home Page</span></div>
                     <h1 class="page-title">Student</h1>
 
                 </div>
